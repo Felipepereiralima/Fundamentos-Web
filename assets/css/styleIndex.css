@@ -1,0 +1,62 @@
+/*Estilos da página index.html*/
+
+.img-therev{
+    margin: 5px;
+    width: 320px;
+    height: 320px;
+    text-align: center;
+}
+
+.audio{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limite{
+    width: 1024px;
+    position:inline;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, rgb(80, 81, 79 ),rgb( 253, 255, 247))    
+}
+
+.container {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+.center{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu li{
+    display: inline;
+    padding: 5px;
+
+}
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color: darkgrey;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+/*Estilos da página contato.html*/
+
+.ml-50{
+    margin-left: 25px;
+}
