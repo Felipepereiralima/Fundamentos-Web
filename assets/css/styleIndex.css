@@ -38,7 +38,6 @@
 
 .center{
     display: flex;
-    display: -webkit-flex;
     justify-content: center;
     align-items: center;
 }
@@ -71,4 +70,18 @@
 
 .ml-50{
     margin-left: 25px;
+    padding-top: 30px;
+}
+
+.centro{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
