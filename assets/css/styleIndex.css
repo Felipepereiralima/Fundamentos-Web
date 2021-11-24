@@ -1,5 +1,9 @@
 /*Estilos da página index.html*/
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .img-therev{
     margin: 5px;
     width: 320px;
@@ -8,10 +12,13 @@
 }
 
 .audio{
-    display: flex;
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
+}
+
+.introducao{
+    text-align: justify;
 }
 
 .limite{
@@ -22,7 +29,7 @@
 }
 
 .container {
-    display: inline;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -53,6 +60,11 @@
     width: 40px;
     height: 40px;
     padding: 10px;
+}
+
+.marginaudio{
+    display: flex;
+    margin: 5px;
 }
 
 /*Estilos da página contato.html*/
