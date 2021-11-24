@@ -9,6 +9,7 @@
     width: 320px;
     height: 320px;
     text-align: center;
+    border-radius: 10%;
 }
 
 .audio{
@@ -25,7 +26,7 @@
     width: 1024px;
     position:inline;
     margin: 0 auto;
-    background-image: linear-gradient(45deg, rgb(80, 81, 79 ),rgb( 253, 255, 247))    
+    background-image: linear-gradient(45deg, #535c68,rgb( 253, 255, 247))    
 }
 
 .container {
