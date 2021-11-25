@@ -53,7 +53,8 @@
     font-size: 20px;
 }
 #menu li a:hover{
-    color: darkgrey;
+    color: black;
+    font-size: 30px;
 }
 
 .tm-social{
