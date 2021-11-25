@@ -2,6 +2,7 @@ let nome = document.querySelector("#nome")
 let nomeOk = false
 let emailOk = false
 let assuntoOk = false
+let mapa = document.querySelector("#mapa")
 
 
 function validarNome(){
@@ -47,6 +48,15 @@ function enviar(){
     }else{
         alert("Preencha os dados corretamente.")
     }
+}
+function mapaZoom(){
+    mapa.style.width = "800px"
+    mapa.style.height= "600px"
+}
+
+function mapaNormal(){
+    mapa.style.width = "400px"
+    mapa.style.height= "250px"
 }
 
 let nomes = window.document.getElementById("nome")
