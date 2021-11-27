@@ -1,0 +1,89 @@
+/*Estilos da página index.html*/
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.img-therev{
+    margin: 5px;
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.audio{
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao{
+    text-align: justify;
+}
+
+.limite{
+    width: 1024px;
+    position:inline;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, #535c68,rgb( 253, 255, 247))    
+}
+
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu li{
+    display: inline;
+    padding: 5px;
+
+}
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color: black;
+    font-size: 30px;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.marginaudio{
+    display: flex;
+    margin: 5px;
+}
+
+/*Estilos da página contato.html*/
+
+.ml-50{
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+.centro{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
